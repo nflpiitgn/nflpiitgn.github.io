@@ -2,7 +2,7 @@
 
 Static website for the Faculty Leadership for Life program (Nurturing Future Leadership Program, Malaviya Mission Teacher Training Program) at IIT Gandhinagar.
 
-Plain HTML and images: no build step, no frameworks. Fonts load from Google Fonts.
+Plain HTML and images: no build step, no frameworks. The Manrope typeface is bundled in `assets/fonts/` (SIL Open Font License), so the site needs no outside services.
 
 ## Pages
 
@@ -26,6 +26,21 @@ Photos and logos are in `assets/img/`. All links are relative, so the site works
 4. After a minute or two, the site is live at `https://<your-username>.github.io/<repository-name>/`.
 
 To use a custom domain, add it under **Settings → Pages → Custom domain**.
+
+## Colour schemes
+
+The site ships with five colour schemes:
+
+| Name | Code | Look |
+|---|---|---|
+| Lal Minar | `lalminar` | Brick red and ink on white (default) |
+| Sabarmati | `sabarmati` | River teal, mint and deep slate |
+| Gulmohar | `gulmohar` | Flame orange-red on warm cream, with maroon |
+| Indian Roller | `roller` | Electric indigo with turquoise |
+| Monsoon Night | `monsoon` | Dark mode: charcoal with amber |
+
+- **Preview a scheme:** add `?scheme=` and a code to any page address, for example `https://<username>.github.io/<repo>/?scheme=gulmohar`. Links between pages keep the scheme.
+- **Change the default for everyone:** open `assets/scheme.js` and change `DEFAULT_SCHEME = 'lalminar'` to another code, then commit.
 
 ## Editing
 
