@@ -1,10 +1,10 @@
 /* Colour scheme for the Faculty Leadership for Life site.
    To change the default for every visitor, edit DEFAULT_SCHEME below.
-   Options: lalminar, sabarmati, gulmohar, roller, monsoon.
+   Options: lalminar, sabarmati, gulmohar, roller, monsoon, bandhani.
    To preview a scheme without editing, add ?scheme=NAME to any page address. */
 (function () {
   var DEFAULT_SCHEME = 'lalminar';
-  var ALL = ['lalminar', 'sabarmati', 'gulmohar', 'roller', 'monsoon'];
+  var ALL = ['lalminar', 'sabarmati', 'gulmohar', 'roller', 'monsoon', 'bandhani'];
   var q = new URLSearchParams(window.location.search).get('scheme');
   var chosen = ALL.indexOf(q) >= 0 ? q : DEFAULT_SCHEME;
   var root = document.querySelector('.nflp');

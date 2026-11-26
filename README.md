@@ -29,7 +29,7 @@ To use a custom domain, add it under **Settings → Pages → Custom domain**.
 
 ## Colour schemes
 
-The site ships with five colour schemes:
+The site ships with six colour schemes:
 
 | Name | Code | Look |
 |---|---|---|
@@ -38,6 +38,7 @@ The site ships with five colour schemes:
 | Gulmohar | `gulmohar` | Flame orange-red on warm cream, with maroon |
 | Indian Roller | `roller` | Electric indigo with turquoise |
 | Monsoon Night | `monsoon` | Dark mode: charcoal with amber |
+| Bandhani | `bandhani` | Gujarati tie-dye: magenta and marigold on off-white |
 
 - **Preview a scheme:** add `?scheme=` and a code to any page address, for example `https://<username>.github.io/<repo>/?scheme=gulmohar`. Links between pages keep the scheme.
 - **Change the default for everyone:** open `assets/scheme.js` and change `DEFAULT_SCHEME = 'lalminar'` to another code, then commit.
